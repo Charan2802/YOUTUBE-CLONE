@@ -1,0 +1,53 @@
+.Adhiprush{
+    width: 100%;
+    }
+    
+    .video-info{
+        width:245px;
+        font-size: 16px;
+        Display:inline-block;
+    }
+    .video-text{
+        width: 250px;
+        font-family: bold;
+        font-weight: 10px;
+        font-size: 14px;
+        display: block;
+    }
+    .back-picture{
+        display: inline-block;
+        vertical-align: top;
+        border-radius: 40px;
+        margin: 0;
+    }
+    .short-picture{
+        width: 45px;
+        display: inline-block;
+        border-radius: 40px;
+    }
+    .video-text{
+        margin-top: 0;
+    }
+    .video-views{
+    color: gray;
+    margin-bottom: 5px;
+    display: inline-block;
+    }
+    .video-series{
+        margin-top:0;
+        color: gray;
+        margin-bottom: 0;
+    }
+    .week{
+        margin-top: 0;
+        color: gray;
+        display: inline-block;
+    }
+    .video-grid{ 
+        display: grid;
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+        column-gap: 15px;
+        height:60px;
+        row-gap: 40px;
+        margin-top: 10px;
+    }
